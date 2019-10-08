@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/memory-allocation_01.c
+stdio.h
+-
+stdlib.h
+-
+

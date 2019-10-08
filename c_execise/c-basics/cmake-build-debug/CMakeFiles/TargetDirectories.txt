@@ -1,0 +1,3 @@
+G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/cmake-build-debug/CMakeFiles/c_basics.dir
+G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\c_basics.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\c_basics.dir/objects.a @CMakeFiles\c_basics.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\c_basics.dir/objects.a -Wl,--no-whole-archive  -o c_basics.exe -Wl,--out-implib,libc_basics.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c_basics.dir\linklibs.rsp
