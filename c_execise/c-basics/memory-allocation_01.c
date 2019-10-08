@@ -49,7 +49,7 @@ void reallocFun(){
 }
 
 
-int main() {
+int main2() {
 	//栈内存,造成栈溢出
 	//int a[1024*1024*10];
 	//C语言内存分配：
@@ -65,4 +65,21 @@ int main() {
 	reallocFun();
 	//printf("Hello, World!\n");
 	return 0;
+}
+
+void main(){
+	//40M
+	int* p1 = malloc(1024 * 1024 * 10 * sizeof(int));
+	free(p1);
+	p1 = NULL;//如果不置空,则地址还存在
+	printf("%#x\n",p1);
+
+	//80M
+	p1 = malloc(1024 * 1024 * 10 * sizeof(int) * 2);
+
+	free(p1);
+	printf("%#x\n",p1);
+	p1 = NULL;
+
+	//getchar();
 }
