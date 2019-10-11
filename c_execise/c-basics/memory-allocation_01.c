@@ -67,7 +67,7 @@ int main2() {
 	return 0;
 }
 
-void main(){
+void main1(){
 	//40M
 	int* p1 = malloc(1024 * 1024 * 10 * sizeof(int));
 	free(p1);

@@ -69,19 +69,64 @@ CMakeFiles/c_basics.dir/memory-allocation_01.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basics.dir/memory-allocation_01.c.s"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\memory-allocation_01.c -o CMakeFiles\c_basics.dir\memory-allocation_01.c.s
 
+CMakeFiles/c_basics.dir/character-str_01.c.obj: CMakeFiles/c_basics.dir/flags.make
+CMakeFiles/c_basics.dir/character-str_01.c.obj: ../character-str_01.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_basics.dir/character-str_01.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_basics.dir\character-str_01.c.obj   -c G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_01.c
+
+CMakeFiles/c_basics.dir/character-str_01.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basics.dir/character-str_01.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_01.c > CMakeFiles\c_basics.dir\character-str_01.c.i
+
+CMakeFiles/c_basics.dir/character-str_01.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basics.dir/character-str_01.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_01.c -o CMakeFiles\c_basics.dir\character-str_01.c.s
+
+CMakeFiles/c_basics.dir/character-str_02.c.obj: CMakeFiles/c_basics.dir/flags.make
+CMakeFiles/c_basics.dir/character-str_02.c.obj: ../character-str_02.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_basics.dir/character-str_02.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_basics.dir\character-str_02.c.obj   -c G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_02.c
+
+CMakeFiles/c_basics.dir/character-str_02.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basics.dir/character-str_02.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_02.c > CMakeFiles\c_basics.dir\character-str_02.c.i
+
+CMakeFiles/c_basics.dir/character-str_02.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basics.dir/character-str_02.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_02.c -o CMakeFiles\c_basics.dir\character-str_02.c.s
+
+CMakeFiles/c_basics.dir/character-str_03.c.obj: CMakeFiles/c_basics.dir/flags.make
+CMakeFiles/c_basics.dir/character-str_03.c.obj: ../character-str_03.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/c_basics.dir/character-str_03.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\c_basics.dir\character-str_03.c.obj   -c G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_03.c
+
+CMakeFiles/c_basics.dir/character-str_03.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_basics.dir/character-str_03.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_03.c > CMakeFiles\c_basics.dir\character-str_03.c.i
+
+CMakeFiles/c_basics.dir/character-str_03.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_basics.dir/character-str_03.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\character-str_03.c -o CMakeFiles\c_basics.dir\character-str_03.c.s
+
 # Object files for target c_basics
 c_basics_OBJECTS = \
-"CMakeFiles/c_basics.dir/memory-allocation_01.c.obj"
+"CMakeFiles/c_basics.dir/memory-allocation_01.c.obj" \
+"CMakeFiles/c_basics.dir/character-str_01.c.obj" \
+"CMakeFiles/c_basics.dir/character-str_02.c.obj" \
+"CMakeFiles/c_basics.dir/character-str_03.c.obj"
 
 # External object files for target c_basics
 c_basics_EXTERNAL_OBJECTS =
 
 c_basics.exe: CMakeFiles/c_basics.dir/memory-allocation_01.c.obj
+c_basics.exe: CMakeFiles/c_basics.dir/character-str_01.c.obj
+c_basics.exe: CMakeFiles/c_basics.dir/character-str_02.c.obj
+c_basics.exe: CMakeFiles/c_basics.dir/character-str_03.c.obj
 c_basics.exe: CMakeFiles/c_basics.dir/build.make
 c_basics.exe: CMakeFiles/c_basics.dir/linklibs.rsp
 c_basics.exe: CMakeFiles/c_basics.dir/objects1.rsp
 c_basics.exe: CMakeFiles/c_basics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_basics.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\exercise-source\ndk\c\ndk-exercise\c_execise\c-basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable c_basics.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c_basics.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

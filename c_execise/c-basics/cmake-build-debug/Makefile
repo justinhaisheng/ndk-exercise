@@ -122,6 +122,87 @@ c_basics/fast:
 	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/build
 .PHONY : c_basics/fast
 
+character-str_01.obj: character-str_01.c.obj
+
+.PHONY : character-str_01.obj
+
+# target to build an object file
+character-str_01.c.obj:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_01.c.obj
+.PHONY : character-str_01.c.obj
+
+character-str_01.i: character-str_01.c.i
+
+.PHONY : character-str_01.i
+
+# target to preprocess a source file
+character-str_01.c.i:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_01.c.i
+.PHONY : character-str_01.c.i
+
+character-str_01.s: character-str_01.c.s
+
+.PHONY : character-str_01.s
+
+# target to generate assembly for a file
+character-str_01.c.s:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_01.c.s
+.PHONY : character-str_01.c.s
+
+character-str_02.obj: character-str_02.c.obj
+
+.PHONY : character-str_02.obj
+
+# target to build an object file
+character-str_02.c.obj:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_02.c.obj
+.PHONY : character-str_02.c.obj
+
+character-str_02.i: character-str_02.c.i
+
+.PHONY : character-str_02.i
+
+# target to preprocess a source file
+character-str_02.c.i:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_02.c.i
+.PHONY : character-str_02.c.i
+
+character-str_02.s: character-str_02.c.s
+
+.PHONY : character-str_02.s
+
+# target to generate assembly for a file
+character-str_02.c.s:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_02.c.s
+.PHONY : character-str_02.c.s
+
+character-str_03.obj: character-str_03.c.obj
+
+.PHONY : character-str_03.obj
+
+# target to build an object file
+character-str_03.c.obj:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_03.c.obj
+.PHONY : character-str_03.c.obj
+
+character-str_03.i: character-str_03.c.i
+
+.PHONY : character-str_03.i
+
+# target to preprocess a source file
+character-str_03.c.i:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_03.c.i
+.PHONY : character-str_03.c.i
+
+character-str_03.s: character-str_03.c.s
+
+.PHONY : character-str_03.s
+
+# target to generate assembly for a file
+character-str_03.c.s:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/character-str_03.c.s
+.PHONY : character-str_03.c.s
+
 memory-allocation_01.obj: memory-allocation_01.c.obj
 
 .PHONY : memory-allocation_01.obj
@@ -158,6 +239,15 @@ help:
 	@echo ... c_basics
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... character-str_01.obj
+	@echo ... character-str_01.i
+	@echo ... character-str_01.s
+	@echo ... character-str_02.obj
+	@echo ... character-str_02.i
+	@echo ... character-str_02.s
+	@echo ... character-str_03.obj
+	@echo ... character-str_03.i
+	@echo ... character-str_03.s
 	@echo ... memory-allocation_01.obj
 	@echo ... memory-allocation_01.i
 	@echo ... memory-allocation_01.s

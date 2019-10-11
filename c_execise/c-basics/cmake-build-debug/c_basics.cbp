@@ -74,6 +74,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/character-str_01.c">
+			<Option target="c_basics"/>
+		</Unit>
+		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/character-str_02.c">
+			<Option target="c_basics"/>
+		</Unit>
+		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/character-str_03.c">
+			<Option target="c_basics"/>
+		</Unit>
 		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/memory-allocation_01.c">
 			<Option target="c_basics"/>
 		</Unit>

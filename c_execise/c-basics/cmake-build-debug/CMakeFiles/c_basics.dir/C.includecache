@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/memory-allocation_01.c
+G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/character-str_03.c
 stdio.h
 -
 stdlib.h
+-
+string.h
 -
 
