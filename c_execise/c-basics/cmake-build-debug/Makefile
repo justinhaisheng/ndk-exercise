@@ -230,6 +230,60 @@ memory-allocation_01.c.s:
 	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/memory-allocation_01.c.s
 .PHONY : memory-allocation_01.c.s
 
+structural_body_01.obj: structural_body_01.c.obj
+
+.PHONY : structural_body_01.obj
+
+# target to build an object file
+structural_body_01.c.obj:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/structural_body_01.c.obj
+.PHONY : structural_body_01.c.obj
+
+structural_body_01.i: structural_body_01.c.i
+
+.PHONY : structural_body_01.i
+
+# target to preprocess a source file
+structural_body_01.c.i:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/structural_body_01.c.i
+.PHONY : structural_body_01.c.i
+
+structural_body_01.s: structural_body_01.c.s
+
+.PHONY : structural_body_01.s
+
+# target to generate assembly for a file
+structural_body_01.c.s:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/structural_body_01.c.s
+.PHONY : structural_body_01.c.s
+
+structural_body_02.obj: structural_body_02.c.obj
+
+.PHONY : structural_body_02.obj
+
+# target to build an object file
+structural_body_02.c.obj:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/structural_body_02.c.obj
+.PHONY : structural_body_02.c.obj
+
+structural_body_02.i: structural_body_02.c.i
+
+.PHONY : structural_body_02.i
+
+# target to preprocess a source file
+structural_body_02.c.i:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/structural_body_02.c.i
+.PHONY : structural_body_02.c.i
+
+structural_body_02.s: structural_body_02.c.s
+
+.PHONY : structural_body_02.s
+
+# target to generate assembly for a file
+structural_body_02.c.s:
+	$(MAKE) -f CMakeFiles\c_basics.dir\build.make CMakeFiles/c_basics.dir/structural_body_02.c.s
+.PHONY : structural_body_02.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +305,12 @@ help:
 	@echo ... memory-allocation_01.obj
 	@echo ... memory-allocation_01.i
 	@echo ... memory-allocation_01.s
+	@echo ... structural_body_01.obj
+	@echo ... structural_body_01.i
+	@echo ... structural_body_01.s
+	@echo ... structural_body_02.obj
+	@echo ... structural_body_02.i
+	@echo ... structural_body_02.s
 .PHONY : help
 
 

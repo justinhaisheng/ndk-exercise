@@ -15,25 +15,24 @@ void delchar(char *str, char del){
 	}
 	*p = '\0';
 }
-
+//×ªĞ¡Ğ´
 void mystrlwr(char str[],int len){
 	int i = 0;
 	for (; i < len; i++){
-		//A-Z å­—æ¯ a-Z
+		//A-Z ×ÖÄ¸ a-Z
 		if (str[i] >= 'A' && str[i] <= 'Z'){
 			str[i] = str[i]-'A' + 'a';
 		}
 	}
-
 }
 
-void main(){
+void main_str_03(){
 	char src[] = "C,C++,Java";
 
 
 
 	char dest[20] = {0};
-	//memcpy ç”±srcæ‰€æŒ‡å†…å­˜åŒºåŸŸå¤åˆ¶countä¸ªå­—èŠ‚åˆ°destæ‰€æŒ‡å†…å­˜åŒºåŸŸ
+	//memcpy ÓÉsrcËùÖ¸ÄÚ´æÇøÓò¸´ÖÆcount¸ö×Ö½Úµ½destËùÖ¸ÄÚ´æÇøÓò
 	memcpy(dest,src,9);
 	printf("%s\n",dest);
 
@@ -41,8 +40,53 @@ void main(){
 	printf("%s\n",src);
 
 	char str[] = "CHINA motherland!";
-	//_strupr(str);
-	//printf("%s\n",str);
+	_strupr(str);//×ª´óĞ´
+	printf("%s\n",str);
 	mystrlwr(str, sizeof(str)/ sizeof(char));
 	printf("%s\n",str);
+
+	//±È½Ï×Ö·û´® strcmpiºöÂÔ´óĞ¡Ğ´
+	char* str1 = "abc";
+	char* str2 = "ABC";
+
+	int r = strcmp(str1,str2);
+	if (r > 0){
+		printf("str1 ´óÓÚstr2\n");
+	}
+	else if (r == 0){
+		printf("str1 µÈÓÚstr2\n");
+	}
+		//str1 < str2
+	else if (r < 0){
+		printf("str1 Ğ¡ÓÚstr2\n");
+	}
+
+	char* num_str = "9978";
+	int num_r = atol(num_str);
+	printf("%d\n", num_r);
+
+	char *buf1 = "aaa", *buf2 = "bbb", *buf3 = "ccc";
+	int ptr;
+	ptr = strcmp(buf2, buf1);
+	if (ptr > 0)
+		printf("buffer 2 is greater than buffer 1n\n");
+	else
+		printf("buffer 2 is less than buffer 1n\n");
+	ptr = strcmp(buf2, buf3);
+	if (ptr > 0)
+		printf("buffer 2 is greater than buffer 3n\n");
+	else
+		printf("buffer 2 is less than buffer 3n\n");
+
+
+	char *string1 = "1234567890";
+	char *string2 = "747DC8";
+	int length;
+	length = strcspn(string1, string2);
+	printf("Character where strings intersect is at position %dn\n", length);
+
+
+	char *buffer;
+	buffer = strerror(77);
+	printf("Error: %sn\n", buffer);
 }

@@ -86,6 +86,12 @@
 		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/memory-allocation_01.c">
 			<Option target="c_basics"/>
 		</Unit>
+		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/structural_body_01.c">
+			<Option target="c_basics"/>
+		</Unit>
+		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/structural_body_02.c">
+			<Option target="c_basics"/>
+		</Unit>
 		<Unit filename="G:/exercise-source/ndk/c/ndk-exercise/c_execise/c-basics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

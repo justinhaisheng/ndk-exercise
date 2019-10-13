@@ -9,3 +9,7 @@ CMakeFiles/c_basics.dir/character-str_03.c.obj: ../character-str_03.c
 
 CMakeFiles/c_basics.dir/memory-allocation_01.c.obj: ../memory-allocation_01.c
 
+CMakeFiles/c_basics.dir/structural_body_01.c.obj: ../structural_body_01.c
+
+CMakeFiles/c_basics.dir/structural_body_02.c.obj: ../structural_body_02.c
+
